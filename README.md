@@ -4,7 +4,7 @@ The app provides an interactive way to learn cooking lessons with two main roles
 •	Student – browse lessons by level, watch videos, view images, mark lessons as completed, and add favorites.
 •	Guide – create, edit, and manage lessons with full control over content.
 
- Features
+Features
 •	User roles: Guide / Student with different permissions
 •	Lesson management: create, edit, delete lessons (for guides)
 •	Lesson tracking: mark as completed and add to favorites (for students)
@@ -40,4 +40,5 @@ git clone https://github.com/RotemSwisa/R.Cook-Android-Application-Project.git
 
  Author
 Rotem Swisa – Software Engineering Student
+
 🔗 Link to LinkedIn www.linkedin.com/in/rotem-swisa-10b675382
