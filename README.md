@@ -34,12 +34,10 @@ The app provides an interactive way to learn cooking lessons with two main roles
 
  Getting Started
 1.	Clone the repository: 
-
 git clone https://github.com/RotemSwisa/R.Cook-Android-Application-Project.git
 2.	Open in Android Studio
 3.	Build and run on an emulator or physical device
 
  Author
 Rotem Swisa – Software Engineering Student
-
 🔗 Link to LinkedIn www.linkedin.com/in/rotem-swisa-10b675382
