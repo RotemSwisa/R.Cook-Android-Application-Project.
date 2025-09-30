@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Role Array -->
+    <string-array name="role_array">
+        <item>Student</item>
+        <item>Guide</item>
+    </string-array>
+
+    <!-- Levels Array -->
+    <string-array name="levels_array">
+        <item>Beginners</item>
+        <item>Medium</item>
+        <item>Advanced</item>
+    </string-array>
+
+    <!-- Gender Array -->
+    <string-array name="gender_array">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="colorStatusBar">#A6CAEC</color>          <!-- הסרגל העליון -->
+        <color name="colorPrimary">#DCEAF7</color>            <!-- הסרגל עם כותרת האפליקציה -->
+        <color name="colorBackground">#FFFCF3</color>         <!-- רקע כללי לבן -->
+        <color name="colorAccent">#ACE2AF</color>             <!-- צבע הכפתור המשך -->
+        <color name="textPrimary">#3D5C5E</color>             <!-- צבע הטקסט בסרגלים -->
+        <color name="lessonItemBackground">#B0CDE0</color>    <!-- צבע השיעור ברשימה -->
+        <color name="textGeneral">#0E2841</color>             <!-- צבע הכיתוב בכלל האפליקציה -->
+        <color name="colorRed">#661313</color>                <!-- אדום לטקסט אזהרה -->
+        <color name="colorPrimaryDark">#C6D2E0</color>
+
+        <!-- צבעים נוספים נדרשים -->
+
+        <color name="colorWhite">#FFFFFF</color>
+        <color name="white">#FFFFFF</color>
+        <color name="black">#AD000000</color>
+        <color name="purple_500">#F1F8FF</color>
+        <color name="purple_700">#0F1D66</color>
+        <color name="purple_200">#630000</color>
+        <color name="teal_200">#65979A</color>
+        <color name="teal_700">#018786</color>
+        <color name="colorGray">#CCCCCC</color>
+
+
+        <!-- צבעי רקע למשתמש -->
+        <color name="backgroundGray">#939393</color>
+        <color name="backgroundBlue">#6D0261A8</color>
+        <color name="backgroundYellowish">#FFFDE8</color>
+        <color name="backgroundDefault">#FFFCF3</color>
+
+        <!-- Background Colors -->
+        <color name="backgroundCard">#FFFFFF</color>
+        <color name="backgroundSecondary">#F5F5F5</color>
+
+        <!-- Text Colors -->
+        <color name="textSecondary">#666666</color>
+        <color name="textHint">#999999</color>
+        <color name="textOnPrimary">#FFFFFF</color>
+
+        <!-- Button Colors -->
+        <color name="buttonPrimary">#E8CCCC</color>
+        <color name="buttonSecondary">#FFB74D</color>
+        <color name="buttonDisabled">#CCCCCC</color>
+
+        <!-- Other Colors -->
+        <color name="dividerColor">#E0E0E0</color>
+        <color name="shadowColor">#33000000</color>
+        <color name="transparent">#00000000</color>
+
+        <!-- Status Colors -->
+        <color name="successColor">#D3F5D7</color>
+        <color name="errorColor">#E3CBCA</color>
+        <color name="warningColor">#FF9800</color>
+</resources>

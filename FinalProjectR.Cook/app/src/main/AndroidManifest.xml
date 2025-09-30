@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kinneret.rcook">
+
+    <application
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/rcook_logo1"
+        android:label="@string/app_name"
+
+        android:theme="@style/Theme.RCook"
+        tools:targetApi="31"
+        tools:ignore="HardcodedDebugMode">
+
+        <!-- מסך פתיחה -->
+        <activity android:name=".activity.WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- שאר המסכים -->
+        <activity android:name=".activity.MyLessonsActivity" />
+        <activity android:name=".activity.LessonDetailActivity" />
+        <activity android:name=".activity.EditLessonActivity" />
+        <activity android:name=".activity.SettingsActivity" />
+
+    </application>
+
+</manifest>

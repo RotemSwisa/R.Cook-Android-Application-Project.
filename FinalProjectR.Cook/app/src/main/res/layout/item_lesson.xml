@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lessonItemBackground"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageLessonThumb"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:background="@drawable/image_rounded_corners"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            android:clipToOutline="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/textLessonTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Lesson Title"
+            android:textColor="@color/textGeneral"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toStartOf="@+id/btnFavorite"
+            app:layout_constraintStart_toEndOf="@+id/imageLessonThumb"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textLessonDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Lesson description goes here"
+            android:textColor="@color/textGeneral"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/textLessonTitle"
+            app:layout_constraintStart_toStartOf="@+id/textLessonTitle"
+            app:layout_constraintTop_toBottomOf="@+id/textLessonTitle" />
+
+        <CheckBox
+            android:id="@+id/checkCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/textGeneral"
+            android:text="Completed"
+            android:textColor="@color/textGeneral"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textLessonDescription"
+            app:layout_constraintTop_toBottomOf="@+id/textLessonDescription" />
+
+        <ImageButton
+            android:id="@+id/btnFavorite"
+            android:layout_width="61dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart_selector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
