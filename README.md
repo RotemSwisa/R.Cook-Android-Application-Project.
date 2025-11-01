@@ -42,3 +42,10 @@ The app provides an interactive way to learn cooking lessons with two main roles
 ## _Author_
  - **Rotem Swisa** – Software Engineering Student
  - 🔗 **Link to my LinkedIn profile** www.linkedin.com/in/rotem-swisa-10b675382
+
+
+## Some pictures of the app
+<img width="4078" height="1949" alt="אפליקציה" src="https://github.com/user-attachments/assets/b738310a-0c41-4987-a299-af95ca9998da" />
+<img width="4123" height="1974" alt="אפ jpg" src="https://github.com/user-attachments/assets/098a5884-639a-4f4c-93d2-00eb15333c23" />
+
+
