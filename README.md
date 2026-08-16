@@ -1,9 +1,9 @@
-# R.Cook – Android Learning App <img width="65" height="86" alt="image" src="https://github.com/user-attachments/assets/b8ff53a5-05db-43aa-90f8-b36bfe30f2af" /> 
+# R.Cook - Android Learning App <img width="70" height="70" alt="image" src="https://github.com/user-attachments/assets/b8ff53a5-05db-43aa-90f8-b36bfe30f2af" /> 
 
 R.Cook is an Android application built with Java, XML layouts, and Room Database.
 The app provides an interactive way to learn cooking lessons with two main roles:
-- [x] Student – browse lessons by level, watch videos, view images, mark lessons as completed, and add favorites.
-- [x] Guide – create, edit, and manage lessons with full control over content.
+- [x] Student - browse lessons by level, watch videos, view images, mark lessons as completed, and add favorites.
+- [x] Guide - create, edit, and manage lessons with full control over content.
 
 ## _Features_
 - User roles: Guide / Student with different permissions
